@@ -1,28 +1,5 @@
 # Day 1 — LLM Fundamentals for an AI Engineer
 
-## 🎯 Objective
-
-By the end of Day 1, you should understand:
-
-- What a Large Language Model (LLM) is from an engineering perspective
-- How tokens and tokenization work
-- What a context window is
-- How autoregressive generation works
-- What temperature and top-p control
-- What happens when you make an LLM API request
-- Why LLM APIs can be treated similarly to stateless REST APIs
-- How AI Engineer, ML Engineer, and Research Scientist roles differ
-
-The goal is **not** to understand the mathematics behind transformers today.
-
-Instead, build the following mental model:
-
-> **An LLM is a service that receives tokens as input and repeatedly predicts the next token to generate an output.**
-
-As a backend engineer, you can initially think of an LLM API as another external service your application integrates with.
-
----
-
 # 1. What Is an LLM?
 
 A **Large Language Model (LLM)** is a machine-learning model trained on very large amounts of text and other data.
